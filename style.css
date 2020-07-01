@@ -29,7 +29,7 @@ p{
     background-repeat: no-repeat;
 }
 section{
-    height: 250px;
+    height: 500px;
     padding-bottom: 50px;
 
 }
@@ -39,6 +39,53 @@ section{
     padding: 5px;
     color: white;
     border-radius: 3px;
-    font-weight: 700;
-    
+    font-weight: 700;  
+}
+.biography-area{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+
+}
+#latest-area{
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+}
+.lat-work{
+    width: 100%;
+    margin: 5%;
+    padding-left: 2%;
+}
+.my-work{
+    text-align: center;
+}
+
+.work-tamplate{
+    width: 27%;
+    float: left;
+    margin-left: 3%;
+    padding-left: 3%;
+}
+.work-tamplate img{
+    height: 280px;
+    width: 100%;
+
+}
+#wc-area{
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+}
+.end-area{
+    text-align: center;
+}
+#lr-margin{
+    margin-left: 385px;
+    margin-right: 385px;
+}
+.contact-info{
+    background-color: tomato;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    margin-left: 375px;
+    margin-right: 375px;
 }
